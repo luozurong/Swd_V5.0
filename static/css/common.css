@@ -1,0 +1,158 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+b, i,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN Normal", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display: block;
+}
+
+ul, li {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+	color: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+
+body a:link, body a:visited, body a:hover {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+button{
+    border:0px;
+    background-color:transparent;
+}
+button::after{
+    border:none;
+}
+input{
+    outline:none;
+    border:none;
+    list-style: none;
+}
+img  
+{  
+    width: 100%;
+    height: 100%;
+    outline-width:0px;  
+    vertical-align:middle;  
+    border:0px;
+    
+} 
+
+.ofh {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+html, body {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f6f8fa;
+    color: #333;
+}
+
+.clearfix::after{
+    content:'';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+
+#app {
+    min-width: 100%;
+}
+
+/* 附加公共样式 */
+/* 头部导航样式----开始 */
+.van-nav-bar__left {
+    left: 20px;
+}
+.van-nav-bar__title {
+    font-size: 36px;
+}
+.van-nav-bar__text {
+    font-size: 32px;
+    color: #333333;
+}
+.van-nav-bar .van-icon {
+    color: #333333;
+}
+.van-nav-bar__arrow {
+    font-size: 44px;
+}
+/* 头部导航样式----结束 */
+
